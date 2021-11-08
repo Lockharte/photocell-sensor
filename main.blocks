@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="I9%UU=z?6uXAOhxcYU2c">Photocell Sensor</variable></variables><block type="device_forever" id="}2CgPrtQZG/GY/#oud$=" x="217" y="34"><statement name="HANDLER"><block type="variables_set" id="fG(bTvsHCl6A{dkU)juf"><field name="VAR" id="I9%UU=z?6uXAOhxcYU2c">Photocell Sensor</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="}N%1yDkWdPIo3.R;xq`R"><field name="name">DigitalPin.P0</field></block></value><next><block type="device_show_number" id=",lmqeOuT5VSIN*dH[NZf"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="7?cn||3Q_-^P$]-#DNLW"><field name="VAR" id="I9%UU=z?6uXAOhxcYU2c">Photocell Sensor</field></block></value><next><block type="controls_if" id="@_94E:AB(#XA{wIXBo,9"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="FUx].i5]E)um]MAxcC,@"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="M*.dfD#oNcgiN@{n-syX"><field name="VAR" id="I9%UU=z?6uXAOhxcYU2c">Photocell Sensor</field></block></value><value name="B"><shadow type="math_number" id="*o_jqt5/ks21LDj+k$=O"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="lyG~~6FQ,rK-/wo`v=78"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="}W.M3@mVhK}Ez_8s4*(q"><field name="LEDS">`
+        . . . # . 
+        . . # # . 
+        . . # # . 
+        . # # # . 
+        # # # . .
+        `</field></block></statement></block></next></block></next></block></statement></block></xml>
